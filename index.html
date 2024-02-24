@@ -4,22 +4,20 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>GOIT-js-hw-11</title>
+    <title>GOIT-js-hw-12</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     
-    <script type="module" crossorigin src="/goit-js-hw-11/commonHelpers.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-5b791d57.js">
-    <link rel="stylesheet" href="/goit-js-hw-11/assets/vendor-cf6910df.css">
-    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-0e582501.css">
+    <script type="module" crossorigin src="/goit-js-hw-12/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-64b55ca9.js">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/vendor-cf6910df.css">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/index-d36c6366.css">
   </head>
   <body>
     <form class="img-search-form">
@@ -31,10 +29,15 @@
       />
       <button class="img-search-btn" type="submit">Search</button>
     </form>
-    <div class="gallery-wrapper">
+
+    <ul class="gallery"></ul>
+
+    <div class="loader-container">
       <span class="loader hidden"></span>
-      <ul class="gallery"></ul>
     </div>
+
+    <button type="button" class="load-more-btn hidden" hidden>Load more</button>
+
     
   </body>
 </html>
