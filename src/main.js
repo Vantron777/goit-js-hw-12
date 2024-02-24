@@ -1,9 +1,8 @@
-'use strict';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
+
 import { fetchGallery } from './js/pixabay-api';
-import { imageTemplate } from './js/render-function';
-import { galleryEl } from './js/render-function';
+import { galleryEl, imageTemplate } from './js/render-functions';
 
 const formEl = document.querySelector('.img-search-form');
 const loaderEl = document.querySelector('.loader');
